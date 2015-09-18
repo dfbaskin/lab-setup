@@ -1,0 +1,14 @@
+{
+  "name": "lab-setup",
+  "version": "1.0.0",
+  "description": "Easy lab setup.",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "author": "Dave Baskin <dfbaskin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
