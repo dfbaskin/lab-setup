@@ -1,4 +1,5 @@
 
+var opn = require('opn');
 var express = require('express');
 var app = express();
 var portNum = 9999;
@@ -14,3 +15,4 @@ var server = app.listen(portNum, function () {
     console.log('Application is listening at http://localhost:%s', portNum);
 });
 
+opn('http://localhost:9999/');

@@ -4,11 +4,12 @@
   "description": "Easy lab setup.",
   "main": "server.js",
   "scripts": {
-    "run": "node server.js"
+    "start": "node server.js"
   },
   "author": "Dave Baskin <dfbaskin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "opn": "^3.0.2"
   }
 }
